@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Shah - CA Finalist | Taxation & Finance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        h1, h2, h3, .font-lora {
+            font-family: 'Lora', serif;
+        }
+        .text-brand-dark { color: #2c3e50; }
+        .bg-brand-dark { background-color: #2c3e50; }
+        .text-brand-accent { color: #1abc9c; }
+        .bg-brand-accent { background-color: #1abc9c; }
+        .border-brand-accent { border-color: #1abc9c; }
+        .hover\:bg-brand-accent-dark:hover { background-color: #16a085; }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: white;
+            border: 4px solid #1abc9c;
+            top: 5px;
+            left: -8px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="text-brand-dark">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-brand-dark font-lora">Raj Shah</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#about" class="text-gray-600 hover:text-brand-accent transition duration-300">About</a>
+                <a href="#experience" class="text-gray-600 hover:text-brand-accent transition duration-300">Experience</a>
+                <a href="#skills" class="text-gray-600 hover:text-brand-accent transition duration-300">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-brand-accent transition duration-300">Projects</a>
+                <a href="#contact" class="bg-brand-accent text-white px-5 py-2 rounded-md hover:bg-brand-accent-dark transition duration-300 font-medium">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-brand-dark focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <a href="#about" class="block py-3 px-6 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-accent">About</a>
+            <a href="#experience" class="block py-3 px-6 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-accent">Experience</a>
+            <a href="#skills" class="block py-3 px-6 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-accent">Skills</a>
+            <a href="#projects" class="block py-3 px-6 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-accent">Projects</a>
+            <a href="#contact" class="block py-3 px-6 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-accent">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="bg-white py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-6xl font-bold text-brand-dark leading-tight mb-4">Raj Shah</h1>
+                    <p class="text-xl md:text-2xl text-gray-600 font-lora mb-8">CA Finalist | International Taxation & FEMA Enthusiast</p>
+                    <p class="text-gray-700 mb-8">
+                        Motivated and detail-oriented CA Final student with proven expertise in taxation, audit, FEMA, and valuation. Passionate about financial strategy, compliance, and cross-border taxation.
+                    </p>
+                    <a href="#contact" class="bg-brand-accent text-white px-8 py-3 rounded-md font-bold hover:bg-brand-accent-dark transition duration-300">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                 <h2 class="text-4xl font-bold text-center text-brand-dark mb-12">About Me</h2>
+                 <div class="max-w-4xl mx-auto text-center text-gray-700 text-lg">
+                     <p class="mb-4">
+                        I am highly enthusiastic about pursuing a career in finance and international taxation. My professional journey so far includes hands-on experience in TDS compliance, Tax audit, NRI taxation, ODI, FEMA regulation and financial modeling gained during my articleship.
+                     </p>
+                     <p>
+                        Over time, I've developed a keen interest in international taxation, valuation, and foreign investment compliance. I believe in continuous learning, smart systems, and building meaningful professional relationships to build a strong career in corporate finance or international tax advisory.
+                     </p>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-brand-dark mb-16">Articleship Experience</h2>
+                <div class="relative max-w-2xl mx-auto">
+                    <div class="border-l-2 border-brand-accent absolute h-full top-0" style="left: 0;"></div>
+                    <!-- Timeline Item -->
+                    <div class="pl-8 mb-12 relative timeline-item">
+                        <h3 class="text-2xl font-bold text-brand-dark">Articled Assistant</h3>
+                        <p class="text-brand-accent font-semibold text-lg mb-2">Chauhan & Jain, Chartered Accountants</p>
+                        <p class="text-gray-500 mb-4">July 2024 - Present | Mehsana, Gujarat</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Filed 60+ Tax Audits and ITRs independently during a single audit season.</li>
+                            <li>Specialized in NRI taxation: DTAA application, FTC, Form 3CEB and ITR for US tax residents.</li>
+                            <li>Complied with FEMA guidelines and filed ODI/FDI transaction forms (FC-GPR, FC-TRS).</li>
+                            <li>Conducted valuation of a foreign subsidiary for disinvestment using NAV method.</li>
+                            <li>Prepared Project Reports, CMA Data, Net Worth certificates, and Stock Statements.</li>
+                            <li>Managed TDS and TCS compliances and return filings.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-brand-dark mb-12">Core Competencies</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Skill Category 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-globe text-2xl text-brand-accent mr-4"></i>
+                            <h3 class="text-xl font-bold text-brand-dark">International Tax & FEMA</h3>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>DTAA Application & Foreign Tax Credit (FTC)</li>
+                            <li>ODI/FDI Compliance (FC-GPR, FC-TRS)</li>
+                            <li>RBI Forms (APR, FLA)</li>
+                            <li>NRI Taxation & Form 3CEB</li>
+                        </ul>
+                    </div>
+                    <!-- Skill Category 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-calculator text-2xl text-brand-accent mr-4"></i>
+                            <h3 class="text-xl font-bold text-brand-dark">Financial Modeling & Valuation</h3>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Discounted Cash Flow (DCF)</li>
+                            <li>Net Asset Value (NAV) Method</li>
+                            <li>Scenario & Sensitivity Analysis</li>
+                            <li>Project Reports & CMA Data</li>
+                        </ul>
+                    </div>
+                    <!-- Skill Category 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-landmark text-2xl text-brand-accent mr-4"></i>
+                            <h3 class="text-xl font-bold text-brand-dark">Domestic Tax & Audit</h3>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Tax Audits & ITR Filing (Forms 1-7)</li>
+                            <li>TDS & TCS Compliance</li>
+                            <li>GST Filings</li>
+                            <li>Internal Audits</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Projects Section -->
+        <section id="projects" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-brand-dark mb-12">Key Projects & Initiatives</h2>
+                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    <div class="border-l-4 border-brand-accent pl-6">
+                        <h3 class="font-bold text-xl mb-2">US Subsidiary Valuation</h3>
+                        <p class="text-gray-700">Built a comprehensive financial model for a valuation assignment involving the disinvestment of a US-based subsidiary, utilizing the NAV method for accurate assessment.</p>
+                    </div>
+                    <div class="border-l-4 border-brand-accent pl-6">
+                        <h3 class="font-bold text-xl mb-2">NRI Taxation Advisory</h3>
+                        <p class="text-gray-700">Created detailed ITRs for Non-Resident Indians, successfully claiming foreign tax credits (FTC) and applying Double Taxation Avoidance Agreement (DTAA) benefits.</p>
+                    </div>
+                    <div class="border-l-4 border-brand-accent pl-6">
+                        <h3 class="font-bold text-xl mb-2">FEMA Compliance Management</h3>
+                        <p class="text-gray-700">Handled complete FEMA compliance documentation for complex cross-border transactions, including share swaps and foreign direct investments.</p>
+                    </div>
+                    <div class="border-l-4 border-brand-accent pl-6">
+                        <h3 class="font-bold text-xl mb-2">Charitable Trust Filings</h3>
+                        <p class="text-gray-700">Drafted and filed Form 10BB and ITR-7 for charitable trusts, ensuring accurate reporting and adjustments for corpus fund donations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-brand-dark mb-4">Let's Connect</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-8">I am actively seeking opportunities in corporate finance and international taxation. If you have a role that aligns with my skills and passion, I would love to hear from you.</p>
+                <div class="flex justify-center items-center space-x-8 text-xl">
+                    <a href="mailto:rajshah87586@gmail.com" class="text-brand-dark hover:text-brand-accent transition duration-300">
+                        <i class="fas fa-envelope mr-2"></i> rajshah87586@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/rajshah2108" target="_blank" rel="noopener noreferrer" class="text-brand-dark hover:text-brand-accent transition duration-300">
+                        <i class="fab fa-linkedin mr-2"></i> LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-white py-6">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p>&copy; 2025 Raj Shah. All Rights Reserved.</p>
+            <p class="text-sm mt-1">Built with a passion for finance and code.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
